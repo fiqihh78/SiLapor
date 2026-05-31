@@ -1,0 +1,29 @@
+name: si_lapor
+description: "Aplikasi Pelaporan Infrastruktur Masyarakat"
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.0.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  image_picker: ^1.0.4
+  provider: ^6.1.1
+  google_fonts: ^6.1.0
+  geolocator: ^11.0.0
+  geocoding: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/surakarta.jpg
+    - assets/images/logo_ska.png
+  
